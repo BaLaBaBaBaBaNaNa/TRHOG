@@ -176,6 +176,14 @@
 		CF919FAA9FB12B543F07F97FAA593945 /* KWInvocationCapturer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E41B0C77069DA3A7658675181D0437 /* KWInvocationCapturer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		D1ADCEFDC899F10814362CCDE4BC3E1C /* NSValue+KiwiAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A27D590BCB470D1FD8C666F0A8B0F520 /* NSValue+KiwiAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D21C9F3E9241BA861197112F06F61A69 /* KWMock.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E2FF31B9CE40ECB44B407C23CD6D6E /* KWMock.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D2B32C931D41E570002BD1D4 /* ShowMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = D2B32C911D41E570002BD1D4 /* ShowMessage.h */; };
+		D2B32C941D41E570002BD1D4 /* ShowMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = D2B32C911D41E570002BD1D4 /* ShowMessage.h */; };
+		D2B32C951D41E570002BD1D4 /* ShowMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = D2B32C911D41E570002BD1D4 /* ShowMessage.h */; };
+		D2B32C961D41E570002BD1D4 /* ShowMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = D2B32C911D41E570002BD1D4 /* ShowMessage.h */; };
+		D2B32C971D41E570002BD1D4 /* ShowMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B32C921D41E570002BD1D4 /* ShowMessage.m */; };
+		D2B32C981D41E570002BD1D4 /* ShowMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B32C921D41E570002BD1D4 /* ShowMessage.m */; };
+		D2B32C991D41E570002BD1D4 /* ShowMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B32C921D41E570002BD1D4 /* ShowMessage.m */; };
+		D2B32C9A1D41E570002BD1D4 /* ShowMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = D2B32C921D41E570002BD1D4 /* ShowMessage.m */; };
 		D39F8CD00049355BD5004B023A15DFB5 /* KWHaveMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 2607A8CBF7448396BD22D2B0AB861E02 /* KWHaveMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D683AE41CD959324F0A6B61DBFDEF9FC /* KWGenericMatchEvaluator.h in Headers */ = {isa = PBXBuildFile; fileRef = BE5477D4337C384F322F2C6F7E1F5ED4 /* KWGenericMatchEvaluator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D7CF464BB6C00276B1C4094A227F344E /* NSObject+KiwiSpyAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3408D32518770F31CD631D9B64BE50A5 /* NSObject+KiwiSpyAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -415,6 +423,8 @@
 		D01F41E79D12F58B0F8F18C409D8D6C9 /* Pods_TRHOG_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRHOG_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08A5C054297BEB1989EB05857FD4231 /* Kiwi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kiwi-dummy.m"; sourceTree = "<group>"; };
 		D12397690C27D65BF1EBB88AA7971CB3 /* KWUserDefinedMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KWUserDefinedMatcher.h; path = Classes/Matchers/KWUserDefinedMatcher.h; sourceTree = "<group>"; };
+		D2B32C911D41E570002BD1D4 /* ShowMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowMessage.h; sourceTree = "<group>"; };
+		D2B32C921D41E570002BD1D4 /* ShowMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowMessage.m; sourceTree = "<group>"; };
 		D3503E48776EB13AC5358E6EBB944C99 /* Pods-TRHOG_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRHOG_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		D396A3A636239EDA0560E352F9272622 /* KWContainMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KWContainMatcher.m; path = Classes/Matchers/KWContainMatcher.m; sourceTree = "<group>"; };
 		D3B2A0E6B24D486792515DF62530535A /* Pods-TRHOG_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TRHOG_Example-dummy.m"; sourceTree = "<group>"; };
@@ -753,6 +763,8 @@
 			isa = PBXGroup;
 			children = (
 				A3FAF1B857863313B6974EE14E90FF07 /* ReplaceMe.m */,
+				D2B32C911D41E570002BD1D4 /* ShowMessage.h */,
+				D2B32C921D41E570002BD1D4 /* ShowMessage.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -843,6 +855,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA005EBFCF60E5775970192E17F17BA9 /* Pods-TRHOG_Tests-umbrella.h in Headers */,
+				D2B32C951D41E570002BD1D4 /* ShowMessage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -851,6 +864,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06A5FB339E07282D290501D1A6C0E945 /* Pods-TRHOG_Example-umbrella.h in Headers */,
+				D2B32C941D41E570002BD1D4 /* ShowMessage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -877,6 +891,7 @@
 				C70D8848451F30F1C745632203368C84 /* KWBeMemberOfClassMatcher.h in Headers */,
 				25E550741DDFCF25526F473F4705F159 /* KWBeSubclassOfClassMatcher.h in Headers */,
 				5511AE9123CA02FA2BBFF04F12D884EF /* KWBeTrueMatcher.h in Headers */,
+				D2B32C931D41E570002BD1D4 /* ShowMessage.h in Headers */,
 				02A9978D347095DFD204B153D39D1EB5 /* KWBeWithinMatcher.h in Headers */,
 				37A4F450AE996BCE567341B5BDA65916 /* KWBeZeroMatcher.h in Headers */,
 				3FA550F4FAD8747FA239C4F9A650FE98 /* KWBlock.h in Headers */,
@@ -966,6 +981,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BD4611311A0BBE7A647B89853D963BA /* TRHOG-umbrella.h in Headers */,
+				D2B32C961D41E570002BD1D4 /* ShowMessage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1076,6 +1092,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2B32C981D41E570002BD1D4 /* ShowMessage.m in Sources */,
 				6F4C37031015ED8E7853205F22A05B2C /* Pods-TRHOG_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1084,6 +1101,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2B32C991D41E570002BD1D4 /* ShowMessage.m in Sources */,
 				18D588FF3AD492C77EA5E721768ADDEF /* Pods-TRHOG_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1110,6 +1128,7 @@
 				F0A208E761BC81719B0089FFACE80BF5 /* KWBeTrueMatcher.m in Sources */,
 				A9CDEE4D11B4FFB6A553C29A09C92D3A /* KWBeWithinMatcher.m in Sources */,
 				A1F4FDD164555F81361B6DCFEE8FDAB1 /* KWBeZeroMatcher.m in Sources */,
+				D2B32C971D41E570002BD1D4 /* ShowMessage.m in Sources */,
 				AAC94C275C5F29CCA4F3D0ACD7C66361 /* KWBlock.m in Sources */,
 				8DC21DC962C8CADFB15BD6BAF9AADA98 /* KWBlockNode.m in Sources */,
 				A2A7FAEBEF6D72727BDAFB967F936671 /* KWBlockRaiseMatcher.m in Sources */,
@@ -1185,6 +1204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2B32C9A1D41E570002BD1D4 /* ShowMessage.m in Sources */,
 				A70DCED5D15570E168AC07970D448F4A /* ReplaceMe.m in Sources */,
 				8A31F48A9BB252811C040A96558193CF /* TRHOG-dummy.m in Sources */,
 			);
