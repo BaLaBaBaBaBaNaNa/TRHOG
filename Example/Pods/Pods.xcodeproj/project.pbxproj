@@ -762,6 +762,7 @@
 		6660F470084DFA9CBADCB8FBC5DBFC32 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D2E054AB1D41E9A70028F3F2 /* BAEvent */,
 				A3FAF1B857863313B6974EE14E90FF07 /* ReplaceMe.m */,
 				D2B32C911D41E570002BD1D4 /* ShowMessage.h */,
 				D2B32C921D41E570002BD1D4 /* ShowMessage.m */,
@@ -845,6 +846,13 @@
 				B89BF7315BAB3516AF2A51041DC39C3B /* XCTest.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		D2E054AB1D41E9A70028F3F2 /* BAEvent */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BAEvent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
