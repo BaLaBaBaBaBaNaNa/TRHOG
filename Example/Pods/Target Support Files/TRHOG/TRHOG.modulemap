@@ -1,0 +1,6 @@
+framework module TRHOG {
+  umbrella header "TRHOG-umbrella.h"
+
+  export *
+  module * { export * }
+}

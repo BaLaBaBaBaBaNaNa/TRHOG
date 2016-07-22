@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Kiwi.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TRHOG_Example.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-TRHOG_Tests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TRHOG.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0BD108EA0065CC2BE29C690ED6A0887E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AD48171E49121B186098C405A8660101</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AE56B4C19572FFF30ED8B0D92523A2BA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FFCD86A9C86B910E7C7DA10D8712AF58</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

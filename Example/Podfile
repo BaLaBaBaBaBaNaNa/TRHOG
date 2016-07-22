@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TRHOG_Example' do
+  pod 'TRHOG', :path => '../'
+
+  target 'TRHOG_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+  end
+end
